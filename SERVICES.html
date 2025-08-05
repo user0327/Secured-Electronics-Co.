@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Electronics Co. </title>
+      <!-- FONT AWESOME CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" id="closeMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="SERVICES.html">SERVICES</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="openMenu"></i>
+        </nav>
+        <h1>SERVICES WE OFFER</h1>
+
+    </section>
+
+   <!-- about us content-->
+     <section class="SERVICES">
+       <h1>Services We Offer</h1>
+       <p>Empowering Safety Solutions for All</p>
+       <div class="row">
+            <div class="service-col">
+                <h3>CCTV Installation & Maintenance</h3>
+                <p>We provide complete CCTV system setup for homes, offices, and public facilities. 
+                Our team ensures proper installation, reliable coverage, and long-term maintenance to keep your property secure 24/7.</p>
+            </div>
+            <div class="service-col">
+                <h3>Smart Security System Integration</h3>
+                <p>Upgrade your security with smart alarms, motion detectors, and mobile-enabled systems. 
+                    We help you control and monitor your property remotely with modern, easy-to-use technology.</p>
+            </div>
+            <div class="service-col">
+                <h3>IT & Network Setup</h3>
+                <p>We design and install stable network systems to support CCTV, alarms, 
+                    and other tech solutions. From Wi-Fi setups to structured cabling, we ensure smooth and secure connectivity.</p>
+            </div>
+            <div class="service-col">
+                <h3>Technical Support & User Training</h3>
+                <p>Our support doesn’t end after installation. We offer user training, technical assistance, and repairs
+                     to ensure our clients get the most out of their systems.</p>
+            </div>
+            <div class="service-col">
+                <h3>AI-Powered Surveillance with Facial Recognition</h3>
+                <p>Our advanced security cameras use AI to detect faces, monitor movement, and alert officials in real-time — ideal 
+                    for barangay checkpoints, entrances, and public areas. </p>
+            </div>
+            <div class="service-col">
+                <h3>Emergency Alert Systems for Communities</h3>
+                <p>Our systems can send real-time alerts for emergencies like theft, fire, or accidents — helping barangay officials respond faster.</p>
+            </div>
+        </div>
+       
+     </section>
+
+       <!-- BARANGAY-->
+         <section class="barangay">
+            <h1>These are just a few of the barangays that trusted us with their security.</h1>
+        <div class="barangay-content">
+            <div class="barangay-row">
+                <div class="barangay-row-img">
+                    <img src="BARANGAY CALAMBA.png">
+                </div>
+                <h4>BARANGAY CALAMBA</h4>
+            </div>
+
+            <div class="barangay-row">
+                <div class="barangay-row-img">
+                    <img src="BARANGAY ERMITA.png">
+                </div>
+                <h4>BARANGAY ERMITA</h4>
+            </div>
+
+            <div class="barangay-row">
+                <div class="barangay-row-img">
+                    <img src="BARANGAY GUN-OB.png">
+                </div>
+                <h4>BARANGAY GUN-OB</h4>
+            </div>
+
+            <div class="barangay-row">
+                <div class="barangay-row-img">
+                    <img src="BARANGAY TAPUL.png">
+                </div>
+                <h4>BARANGAY TAPUL</h4>
+            </div>
+
+        </div>
+       </section>
+
+        <!-- PROJECTS -->
+     <section class=" projects">
+        <h1>BARANGAY CALAMBA</h1>
+        <p>See a glimpse of our work with this barangay</p>
+       <div class="img-gallery">
+                <img src="calamba1.jpg" onclick="openFullImg(this.src)">
+                <img src="calamba2.jpg" onclick="openFullImg(this.src)">
+                <img src="calamba3.jpg" onclick="openFullImg(this.src)">
+                <img src="img16.jpeg" onclick="openFullImg(this.src)">
+            </div>
+        <div class="calamba-text">
+            <p>There’s more to see — click here to continue.</p>
+            <a href="https://calambacebu.com/?p=3222" target="_blank" class="btn">LEARN MORE</a>
+        </div>
+            <div class="full-img" id="fullImgBox">
+                <img id="fullImg">
+                <span onclick="closeFullImg()"></span>
+            </div>
+            </section>
+   
+            
+           
+     
+       <!-- Footer -->
+        <section class="footer">
+            <h1>About Us</h1>
+             <p>Secured Electronics Co. is committed to bringing safety, security, and peace of mind to every Filipino community. With a vision to create a 
+                safer Philippines, the company developed advanced, AI-powered CCTV systems equipped with features<br>like facial recognition, real-time tracking, 
+                emergency buttons, and public WiFi. These tools go beyond monitoring — they help prevent crime, save lives, and empower communities.More than just 
+                technology,<br>the company stands for protection, justice, and change.Their mission: to build smarter, safer, and more connected communities — one CCTV post 
+                at a time.</p>
+                       <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const navLinks = document.getElementById("navLinks");
+        const openMenu = document.getElementById("openMenu");
+        const closeMenu = document.getElementById("closeMenu");
+
+        if (navLinks && openMenu && closeMenu) {
+            openMenu.addEventListener("click", () => {
+                navLinks.classList.add("nav-open");
+            });
+
+            closeMenu.addEventListener("click", () => {
+                navLinks.classList.remove("nav-open");
+            });
+        }
+    });
+</script>
+
+</body>
+</html>

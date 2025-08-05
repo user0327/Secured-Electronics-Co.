@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Electronics Co. </title>
+      <!-- FONT AWESOME CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" id="closeMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="SERVICES.html">SERVICES</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="openMenu"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    
+
+   <!-- about us content-->
+                <section class="about-us">
+    <div class="about-row">
+        <div class="about-col">
+         <h1 style="text-align: center;">Your protection is our mission — welcome to Secured Electronics Co., your partner in safety.</h1>
+        <p>Your protection is our mission — welcome to Secured Electronics Co., your partner in safety.
+          At Secured Electronics Co., we are committed to providing reliable and innovative security solutions designed to protect your home, 
+          business, and loved ones. With advanced technology and expert service, we ensure every system we install meets the highest standards of safety 
+          and performance. Whether you're looking for surveillance, alarm systems, or access control, you can trust us to deliver peace of mind—because your 
+          safety is what drives everything we do.</p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+        <img src="team.jpg">
+        </div>
+    </div>
+            
+           
+     
+       <!-- Footer -->
+        <section class="footer">
+            <h1>About Us</h1>
+             <p>Secured Electronics Co. is committed to bringing safety, security, and peace of mind to every Filipino community. With a vision to create a 
+                safer Philippines, the company developed advanced, AI-powered CCTV systems equipped with features<br>like facial recognition, real-time tracking, 
+                emergency buttons, and public WiFi. These tools go beyond monitoring — they help prevent crime, save lives, and empower communities.More than just 
+                technology,<br>the company stands for protection, justice, and change.Their mission: to build smarter, safer, and more connected communities — one CCTV post 
+                at a time.</p>
+                       <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const navLinks = document.getElementById("navLinks");
+        const openMenu = document.getElementById("openMenu");
+        const closeMenu = document.getElementById("closeMenu");
+
+        if (navLinks && openMenu && closeMenu) {
+            openMenu.addEventListener("click", () => {
+                navLinks.classList.add("nav-open");
+            });
+
+            closeMenu.addEventListener("click", () => {
+                navLinks.classList.remove("nav-open");
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
